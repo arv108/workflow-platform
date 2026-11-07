@@ -1,0 +1,2 @@
+ALTER TABLE job_execution
+ADD COLUMN fencing_token BIGINT NOT NULL DEFAULT 0;
